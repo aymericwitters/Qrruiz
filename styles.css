@@ -1,62 +1,65 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
-list-style: none;
-font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    height: 100vh;
-    width : 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+
 header{
-    background: rgb(0, 247, 235);
-    padding: 20px 9%;
+    background: rgb(0, 70, 247);
+    padding: 15px 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-logo{
+
+.logo{
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
-
 }
 
-li{
-   display: inline-block;
+
+.nav-links li{
+    display: inline-block;
 }
-li a{
+
+.nav-links li a{
     color: white;
     font-size: 18px;
     font-weight: 400;
     margin-right: 25px;
     padding: 0 15px;
-
 }
 
-li a:hover{
+.nav-links li a:hover{
     color: black;
 }
 
-button{
-     width: 90px;
-     background-color: black;
-        color: white;
-        font-size: 16px;
-        font-weight: 400;
-        margin-left: 10px;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-}
-button:hover{
-    background-color: #373737;
 
+.nav-buttons button{
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover{
+    background-color: #373737;
 }
