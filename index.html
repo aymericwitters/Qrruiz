@@ -9,7 +9,6 @@
 <body>
     <header>
         <a href="#" class="logo">qrruiz</a>
-
         <nav>
             <ul class="nav-links">
                 <li><a href="#">home</a></li>
@@ -17,11 +16,24 @@
                 <li><a href="#">about us</a></li>
             </ul>
         </nav>
-
         <div class="nav-buttons">
-            <button type="button">Sign In</button>
-            <button type="button">Register</button>
+            <button type="button" id="loginBtn">Sign In</button>
+            <button type="button" id="registerBtn">Register</button>
         </div>
     </header>
+
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle">Sign In</h2>
+            <form id="authForm">
+                <input type="email" placeholder="E-mailadres" required>
+                <input type="password" placeholder="Wachtwoord" required>
+                <button type="submit" class="submit-btn">Doorgaan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
